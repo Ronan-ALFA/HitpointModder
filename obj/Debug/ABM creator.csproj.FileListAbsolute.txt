@@ -1,0 +1,24 @@
+C:\NWN2\hp_modder\bin\Debug\HitpointMaxer.dll
+C:\NWN2\hp_modder\bin\Debug\HitpointMaxer.pdb
+C:\NWN2\hp_modder\bin\Debug\DotNetMagic2005.dll
+C:\NWN2\hp_modder\bin\Debug\QWhale.Syntax.dll
+C:\NWN2\hp_modder\bin\Debug\GlacialTreeList.dll
+C:\NWN2\hp_modder\bin\Debug\ManagedElectron.dll
+C:\NWN2\hp_modder\bin\Debug\Sano.PersonalProjects.ColorPicker.Controls.dll
+C:\NWN2\hp_modder\bin\Debug\XPExplorerBar.dll
+C:\NWN2\hp_modder\bin\Debug\SmartPropertyGrid.dll
+C:\NWN2\hp_modder\bin\Debug\SourceGrid2.dll
+C:\NWN2\hp_modder\bin\Debug\QWhale.Editor.dll
+C:\NWN2\hp_modder\bin\Debug\IRenderer.dll
+C:\NWN2\hp_modder\bin\Debug\OEILocalization.dll
+C:\NWN2\hp_modder\bin\Debug\ManagedResourceInterface.dll
+C:\NWN2\hp_modder\bin\Debug\managednwscript.dll
+C:\NWN2\hp_modder\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\NWN2\hp_modder\bin\Debug\LZMALibrary.dll
+C:\NWN2\hp_modder\bin\Debug\SharpZipLib.dll
+C:\NWN2\hp_modder\bin\Debug\QWhale.Common.dll
+C:\NWN2\hp_modder\bin\Debug\Sano.Utility.dll
+C:\NWN2\hp_modder\bin\Debug\SourceLibrary.dll
+C:\NWN2\hp_modder\obj\Debug\ABM creator.csprojResolveAssemblyReference.cache
+C:\NWN2\hp_modder\obj\Debug\HitpointMaxer.dll
+C:\NWN2\hp_modder\obj\Debug\HitpointMaxer.pdb
