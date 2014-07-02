@@ -23,8 +23,7 @@ namespace HitpointsModder
         enum HpType { Max, Half, Average }
         private MenuButtonItem m_cMenuItem;
 
-        private void MaxHp(object sender, EventArgs e)
-        {
+        private void MaxHp(object sender, EventArgs e) {
             ModHp(HpType.Max);
         }
 
@@ -75,13 +74,9 @@ namespace HitpointsModder
             }
         }
 
-        public void Load(INWN2PluginHost cHost)
-        {
-        }
+        public void Load(INWN2PluginHost cHost) {}
 
-        public void Shutdown(INWN2PluginHost cHost)
-        {
-        }
+        public void Shutdown(INWN2PluginHost cHost) {}
 
         public void Startup(INWN2PluginHost cHost)
         {
@@ -91,9 +86,7 @@ namespace HitpointsModder
             m_cMenuItem.Items.Add("Average all creature HP", new EventHandler(this.AverageHp));
         }
 
-        public void Unload(INWN2PluginHost cHost)
-        {
-        }
+        public void Unload(INWN2PluginHost cHost) {}
 
         public MenuButtonItem PluginMenuItem
         {
