@@ -108,7 +108,7 @@ namespace HitpointsModder
         {
             get
             {
-                return "Hitpoint Maxer";
+                return "Hitpoint Modder";
             }
         }
 
@@ -116,7 +116,7 @@ namespace HitpointsModder
         {
             get
             {
-                return "Hitpoint Maxer";
+                return "Hitpoint Modder";
             }
         }
 
@@ -124,7 +124,7 @@ namespace HitpointsModder
         {
             get
             {
-                return "Hitpoint Maxer";
+                return "Hitpoint Modder";
             }
         }
 
