@@ -47,15 +47,16 @@ namespace HitpointsModder
                 var core = creature.GetStatsCore();
                 int baseHp, hpBonus;
                 int hd = core.GetLevel();
+                int featHpBonus = core.CalcHitPointModsFromFeats(1);
                 if (creature.Race.Row == 24)
                 {
                     baseHp = hd * 12;
-                    hpBonus = 0;
+                    hpBonus = featHpBonus;
                 }
                 else
                 {
                     baseHp = core.CalcMaxHitpointsFromHitDice();
-                    hpBonus = (core.CalcHitPointModsFromFeats(1) + core.CalcHitPointModsFromStats());
+                    hpBonus = (featHpBonus + core.CalcHitPointModsFromStats());
                 }
                 if (type == HpType.Half)
                 {
