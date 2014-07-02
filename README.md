@@ -1,1 +1,1 @@
-This is a NWN2 toolset plugin which applies the "Reset for MAX" button's effects on all module and campaign blueprints. More complex HP-modding behavior may be added in the future.
+This is a NWN2 toolset plugin which modifies the hitpoints of all creatures in a module and campaign (if present). Hitpoints may be set to maximum rolls, half-rolls, or average rolls.
