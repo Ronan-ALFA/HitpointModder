@@ -15,7 +15,7 @@ using NWN2Toolset.Plugins;
  */
 using TD.SandBar;
 
-namespace HitpointMaxer
+namespace HitpointsModder
 {
     public class HitpointMaxer : INWN2Plugin
     {
@@ -28,8 +28,16 @@ namespace HitpointMaxer
 
             foreach (NWN2Toolset.NWN2.Data.Blueprints.NWN2CreatureBlueprint creature in creatures) {
                 var core = creature.GetStatsCore();
-                var bhp = (short) core.CalcMaxHitpointsFromHitDice();
-                var mhp = (short)(bhp + core.CalcHitPointModsFromFeats(1) + core.CalcHitPointModsFromStats());
+                short bhp, mhp;
+                if (creature.Race.Row == 24)
+                {
+                    mhp = bhp = (short)(core.GetLevel() * 12);
+                }
+                else
+                {
+                    bhp = (short)core.CalcMaxHitpointsFromHitDice();
+                    mhp = (short)(bhp + core.CalcHitPointModsFromFeats(1) + core.CalcHitPointModsFromStats());
+                }                
                 creature.BaseHitPoints = bhp;
                 creature.CharsheetHitPoints = mhp;
                 creature.CurrentHitPoints = mhp;

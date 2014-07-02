@@ -21,3 +21,4 @@ C:\NWN2\hp_modder\bin\Debug\Sano.Utility.dll
 C:\NWN2\hp_modder\bin\Debug\SourceLibrary.dll
 C:\NWN2\hp_modder\obj\Debug\HitpointModder.dll
 C:\NWN2\hp_modder\obj\Debug\HitpointModder.pdb
+C:\NWN2\hp_modder\obj\Debug\Hitpoint Modder.csprojResolveAssemblyReference.cache
